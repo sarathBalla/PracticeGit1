@@ -1,0 +1,23 @@
+import { test, expect } from "../fixtures/hooksFixture";    
+
+test("Add item to Cart verification", async ({ page,loginlogoutfixture }) => {
+
+    // Adding an item to the cart and verifying
+    await page.getByText("Sauce Labs Backpack").click();
+    await page.getByText("Add to cart").click();
+    await page.locator(
+        ".shopping_cart_link").click();
+    expect(page.getByRole("link", { name: "Sauce Labs Backpack" })).toHaveText("Sauce Labs Backpack");
+    expect(page.locator("[data-test='remove-sauce-labs-backpack']")).toBeVisible();
+    await page.locator(".shopping_cart_link").click();
+    await page.locator("[data-test='remove-sauce-labs-backpack']").click();
+    expect(page.getByRole("link", { name: "Sauce Labs Backpack" })).not.toBeVisible();
+
+});
+
+test("Empty Cart Verification Test", async ({ page }) => {
+    // Verifying the cart is empty after login
+    await page.locator("div#shopping_cart_container").click();
+    await expect(page.locator("span.shopping_cart_badge")).toHaveCount(0);
+}
+);

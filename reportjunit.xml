@@ -1,0 +1,110 @@
+<testsuites id="" name="" tests="6" failures="1" skipped="0" errors="0" time="19.758938999999998">
+<testsuite name="Day3\reports29\linereport\linereportPractice1.spec.ts" timestamp="2025-12-08T10:53:00.649Z" hostname="chromium" tests="3" failures="0" skipped="0" time="12.067" errors="0">
+<testcase name="Reporter Practice1" classname="Day3\reports29\linereport\linereportPractice1.spec.ts" time="5.02">
+<properties>
+<property name="some Type" value="US#734590">
+</property>
+</properties>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Day3-reports29-linereport--f0689-ractice1-Reporter-Practice1-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\Day3-reports29-linereport--f0689-ractice1-Reporter-Practice1-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Reporter Practice2" classname="Day3\reports29\linereport\linereportPractice1.spec.ts" time="3.473">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Day3-reports29-linereport--be744-ractice1-Reporter-Practice2-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\Day3-reports29-linereport--be744-ractice1-Reporter-Practice2-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Reporter Practice3" classname="Day3\reports29\linereport\linereportPractice1.spec.ts" time="3.574">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Day3-reports29-linereport--39cc3-ractice1-Reporter-Practice3-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\Day3-reports29-linereport--39cc3-ractice1-Reporter-Practice3-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Day3\reports29\linereport\linereportPractice2.spec.ts" timestamp="2025-12-08T10:53:00.649Z" hostname="chromium" tests="3" failures="1" skipped="0" time="16.79" errors="0">
+<testcase name="Reporter Practice4" classname="Day3\reports29\linereport\linereportPractice2.spec.ts" time="5.105">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Day3-reports29-linereport--b0c30-ractice2-Reporter-Practice4-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\Day3-reports29-linereport--b0c30-ractice2-Reporter-Practice4-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Reporter Practice5" classname="Day3\reports29\linereport\linereportPractice2.spec.ts" time="3.575">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Day3-reports29-linereport--d9ac0-ractice2-Reporter-Practice5-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\Day3-reports29-linereport--d9ac0-ractice2-Reporter-Practice5-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Reporter Practice6" classname="Day3\reports29\linereport\linereportPractice2.spec.ts" time="8.11">
+<failure message="linereportPractice2.spec.ts:17:5 Reporter Practice6" type="FAILURE">
+<![CDATA[  [chromium] › Day3\reports29\linereport\linereportPractice2.spec.ts:17:5 › Reporter Practice6 ─────
+
+    Error: expect(page).toHaveTitle(expected) failed
+
+    Expected: "Google2"
+    Received: "Google"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveTitle" with timeout 5000ms
+        8 × unexpected value "Google"
+
+
+      18 |
+      19 |     await page.goto("https://www.google.com");
+    > 20 |     await expect(page).toHaveTitle("Google2");
+         |                        ^
+      21 |
+      22 | });
+      23 |
+        at C:\Users\sarat\Desktop\Playwright with TypeScript\PlaywrightLatest\tests\Day3\reports29\linereport\linereportPractice2.spec.ts:20:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Day3-reports29-linereport--a2bc0-ractice2-Reporter-Practice6-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Day3-reports29-linereport--a2bc0-ractice2-Reporter-Practice6-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Day3-reports29-linereport--a2bc0-ractice2-Reporter-Practice6-chromium\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\Day3-reports29-linereport--a2bc0-ractice2-Reporter-Practice6-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\Day3-reports29-linereport--a2bc0-ractice2-Reporter-Practice6-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Day3-reports29-linereport--a2bc0-ractice2-Reporter-Practice6-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Day3-reports29-linereport--a2bc0-ractice2-Reporter-Practice6-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Day3-reports29-linereport--a2bc0-ractice2-Reporter-Practice6-chromium\error-context.md]]
+
+[[ATTACHMENT|test-results\Day3-reports29-linereport--a2bc0-ractice2-Reporter-Practice6-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

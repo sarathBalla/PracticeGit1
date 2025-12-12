@@ -1,0 +1,420 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\sarat\\Desktop\\Playwright with TypeScript\\PlaywrightLatest\\playwright.config.ts",
+    "rootDir": "C:/Users/sarat/Desktop/Playwright with TypeScript/PlaywrightLatest/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": {},
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/sarat/Desktop/Playwright with TypeScript/PlaywrightLatest/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "setup",
+        "name": "setup",
+        "testDir": "C:/Users/sarat/Desktop/Playwright with TypeScript/PlaywrightLatest/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/.*\\.setup\\.ts/"
+        ],
+        "timeout": 10000
+      },
+      {
+        "outputDir": "C:/Users/sarat/Desktop/Playwright with TypeScript/PlaywrightLatest/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/sarat/Desktop/Playwright with TypeScript/PlaywrightLatest/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 10000
+      }
+    ],
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.57.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "Day3\\reports29\\linereport\\linereportPractice1.spec.ts",
+      "file": "Day3/reports29/linereport/linereportPractice1.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Reporter Practice1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 10000,
+              "annotations": [
+                {
+                  "type": "some Type",
+                  "description": "US#734590",
+                  "location": {
+                    "file": "C:\\Users\\sarat\\Desktop\\Playwright with TypeScript\\PlaywrightLatest\\tests\\Day3\\reports29\\linereport\\linereportPractice1.spec.ts",
+                    "line": 3,
+                    "column": 5
+                  }
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4180,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T10:22:17.993Z",
+                  "annotations": [
+                    {
+                      "type": "some Type",
+                      "description": "US#734590",
+                      "location": {
+                        "file": "C:\\Users\\sarat\\Desktop\\Playwright with TypeScript\\PlaywrightLatest\\tests\\Day3\\reports29\\linereport\\linereportPractice1.spec.ts",
+                        "line": 3,
+                        "column": 5
+                      }
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\sarat\\Desktop\\Playwright with TypeScript\\PlaywrightLatest\\test-results\\Day3-reports29-linereport--f0689-ractice1-Reporter-Practice1-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\sarat\\Desktop\\Playwright with TypeScript\\PlaywrightLatest\\test-results\\Day3-reports29-linereport--f0689-ractice1-Reporter-Practice1-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4c721598135c867d5d88-f3b0762f367277dba536",
+          "file": "Day3/reports29/linereport/linereportPractice1.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Reporter Practice2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 10000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4995,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T10:22:22.758Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\sarat\\Desktop\\Playwright with TypeScript\\PlaywrightLatest\\test-results\\Day3-reports29-linereport--be744-ractice1-Reporter-Practice2-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\sarat\\Desktop\\Playwright with TypeScript\\PlaywrightLatest\\test-results\\Day3-reports29-linereport--be744-ractice1-Reporter-Practice2-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4c721598135c867d5d88-c56e788867718f0f3155",
+          "file": "Day3/reports29/linereport/linereportPractice1.spec.ts",
+          "line": 19,
+          "column": 5
+        },
+        {
+          "title": "Reporter Practice3",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 10000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3875,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T10:22:27.931Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\sarat\\Desktop\\Playwright with TypeScript\\PlaywrightLatest\\test-results\\Day3-reports29-linereport--39cc3-ractice1-Reporter-Practice3-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\sarat\\Desktop\\Playwright with TypeScript\\PlaywrightLatest\\test-results\\Day3-reports29-linereport--39cc3-ractice1-Reporter-Practice3-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4c721598135c867d5d88-bf447655449401b2ede3",
+          "file": "Day3/reports29/linereport/linereportPractice1.spec.ts",
+          "line": 26,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Day3\\reports29\\linereport\\linereportPractice2.spec.ts",
+      "file": "Day3/reports29/linereport/linereportPractice2.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Reporter Practice4",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 10000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4012,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T10:22:17.986Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\sarat\\Desktop\\Playwright with TypeScript\\PlaywrightLatest\\test-results\\Day3-reports29-linereport--b0c30-ractice2-Reporter-Practice4-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\sarat\\Desktop\\Playwright with TypeScript\\PlaywrightLatest\\test-results\\Day3-reports29-linereport--b0c30-ractice2-Reporter-Practice4-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8eb9fcfc1c05f9025e92-058de4e4878000d65829",
+          "file": "Day3/reports29/linereport/linereportPractice2.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Reporter Practice5",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 10000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5215,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T10:22:22.632Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\sarat\\Desktop\\Playwright with TypeScript\\PlaywrightLatest\\test-results\\Day3-reports29-linereport--d9ac0-ractice2-Reporter-Practice5-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\sarat\\Desktop\\Playwright with TypeScript\\PlaywrightLatest\\test-results\\Day3-reports29-linereport--d9ac0-ractice2-Reporter-Practice5-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8eb9fcfc1c05f9025e92-8d81d7460059dddac9bd",
+          "file": "Day3/reports29/linereport/linereportPractice2.spec.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "Reporter Practice6",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 10000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 8293,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"Google\u001b[7m2\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"Google\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveTitle\" with timeout 5000ms\u001b[22m\n\u001b[2m    8 × unexpected value \"Google\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"Google\u001b[7m2\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"Google\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveTitle\" with timeout 5000ms\u001b[22m\n\u001b[2m    8 × unexpected value \"Google\"\u001b[22m\n\n    at C:\\Users\\sarat\\Desktop\\Playwright with TypeScript\\PlaywrightLatest\\tests\\Day3\\reports29\\linereport\\linereportPractice2.spec.ts:20:24",
+                    "location": {
+                      "file": "C:\\Users\\sarat\\Desktop\\Playwright with TypeScript\\PlaywrightLatest\\tests\\Day3\\reports29\\linereport\\linereportPractice2.spec.ts",
+                      "column": 24,
+                      "line": 20
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 18 |\u001b[39m\n \u001b[90m 19 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://www.google.com\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 20 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"Google2\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 21 |\u001b[39m\n \u001b[90m 22 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 23 |\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\sarat\\Desktop\\Playwright with TypeScript\\PlaywrightLatest\\tests\\Day3\\reports29\\linereport\\linereportPractice2.spec.ts",
+                        "column": 24,
+                        "line": 20
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"Google\u001b[7m2\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"Google\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveTitle\" with timeout 5000ms\u001b[22m\n\u001b[2m    8 × unexpected value \"Google\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 18 |\u001b[39m\n \u001b[90m 19 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://www.google.com\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 20 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"Google2\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 21 |\u001b[39m\n \u001b[90m 22 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 23 |\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\sarat\\Desktop\\Playwright with TypeScript\\PlaywrightLatest\\tests\\Day3\\reports29\\linereport\\linereportPractice2.spec.ts:20:24\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T10:22:28.015Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\sarat\\Desktop\\Playwright with TypeScript\\PlaywrightLatest\\test-results\\Day3-reports29-linereport--a2bc0-ractice2-Reporter-Practice6-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\sarat\\Desktop\\Playwright with TypeScript\\PlaywrightLatest\\test-results\\Day3-reports29-linereport--a2bc0-ractice2-Reporter-Practice6-chromium\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\sarat\\Desktop\\Playwright with TypeScript\\PlaywrightLatest\\test-results\\Day3-reports29-linereport--a2bc0-ractice2-Reporter-Practice6-chromium\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\sarat\\Desktop\\Playwright with TypeScript\\PlaywrightLatest\\test-results\\Day3-reports29-linereport--a2bc0-ractice2-Reporter-Practice6-chromium\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\sarat\\Desktop\\Playwright with TypeScript\\PlaywrightLatest\\tests\\Day3\\reports29\\linereport\\linereportPractice2.spec.ts",
+                    "column": 24,
+                    "line": 20
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "8eb9fcfc1c05f9025e92-cc7677acf5b2976e7178",
+          "file": "Day3/reports29/linereport/linereportPractice2.spec.ts",
+          "line": 17,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-12-08T10:22:16.582Z",
+    "duration": 20055.568,
+    "expected": 5,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "playwrightlatest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:dev": "cross-env TEST_ENV=dev npx playwright test tests/Day3/handlingmultipleenv30",
+    "test:uat": "cross-env TEST_ENV=dev npx playwright test tests/Day3/handlingmultipleenv30",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.1"
+  },
+  "dependencies": {
+    "allure-playwright": "^3.4.3",
+    "cross-env": "^10.1.0",
+    "csv-parse": "^6.1.0",
+    "dotenv": "^17.2.3"
+  }
+}

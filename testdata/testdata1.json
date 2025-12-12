@@ -1,0 +1,20 @@
+[
+    {
+        "Firstname": "Test",
+        "middlename": "Automate",
+        "lastname": "Code",
+        "email": "testautomate@gmail.com"
+    },
+    {
+        "Firstname": "Test2",
+        "middlename": "Automate2",
+        "lastname": "Code2",
+        "email": "testautomate2@gmail.com"
+    },
+        {
+        "Firstname": "Test3",
+        "middlename": "Automate3",
+        "lastname": "Code3",
+        "email": "testautomate3@gmail.com"
+    }
+]
