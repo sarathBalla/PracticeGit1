@@ -17,6 +17,6 @@ test("Reporter Practice5", async ({ page }) => {
 test("Reporter Practice6", async ({ page }) => {
 
     await page.goto("https://www.google.com");
-    await expect(page).toHaveTitle("Google2");
+    await expect(page).toHaveTitle("Google");
 
 });
