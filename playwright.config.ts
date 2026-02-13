@@ -1,6 +1,7 @@
 import { defineConfig, devices } from '@playwright/test';
 //import { json } from 'stream/consumers';
 import dotenv from "dotenv";
+import path from 'path';
 
 /**
  * Read environment variables from file.
@@ -15,10 +16,14 @@ import dotenv from "dotenv";
 
 //   });
 
-// setuping varaible and giving on command
+//setuping varaible and giving on command
 dotenv.config({
 path:process.env.TEST_ENV?`./env-files/.env.${process.env.TEST_ENV}`:`./env-files/.env.dev`
 
+// Setting the path for .env file in testdata folder using for Encrypt Decryption test
+
+// dotenv.config({
+//   path: path.resolve('testdata/.env')
 });
  
 /**
@@ -32,6 +37,7 @@ export default defineConfig({
   grepInvert:/Smoke/,
  // globalSetup:'./global-setup.ts',
   testDir:'./tests',
+  //testDir:'./tests/Day4',
   //'./tests','./src',
   /*// Run tests in files in parallel */
   fullyParallel: false,
