@@ -77,7 +77,7 @@ export default defineConfig({
 
   timeout: 10 * 1000,  // changed from 30 to 70 seconds
   // expect:{
-  //   timeout: 5000, // changed from 4000 to 5000 milliseconds for all assertions
+  //   timeout: 5000, // chanxged from 4000 to 5000 milliseconds for all assertions
   // },
   use: {
     headless: true,
@@ -101,7 +101,7 @@ export default defineConfig({
     {
       name: 'chromium',
       //dependencies:["setup"],
-      use: { ...devices['Desktop Chrome'], channel: 'chrome', headless: false},
+      use: { ...devices['Desktop Chrome'], headless: false},
        // storageState:"./playwright/.auth/auth.json" },
       testMatch: ['**/*.spec.ts'],
     },
