@@ -17,10 +17,10 @@ jobs:
       run: npm ci
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
+    - name: install crypto-js
+      run: npm install crypto-js  
     - name: Run Playwright tests
       run: npx playwright test
-    - name: install crypto-js
-      run: npm install crypto-js
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
