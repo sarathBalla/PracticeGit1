@@ -80,7 +80,7 @@ export default defineConfig({
   //   timeout: 5000, // changed from 4000 to 5000 milliseconds for all assertions
   // },
   use: {
-    headless: false,
+    headless: true,
     /* Base URL to use in actions like `await page.goto('')`. */
     // baseURL: 'http://localhost:3000',
     screenshot: 'on',
